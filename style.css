@@ -1,3 +1,22 @@
-body {
+h3 {
+  color: #2F2F2F;
+    text-decoration: overline underline 8px #D2BDDB dotted;
+    letter-spacing: 15px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px white;
+}
 
+body {
+  background-color: #FEE9E1;
+}
+
+img:hover {
+  width: 300px;
+  border: dotted #D2BDDB 10px;
+  border-radius: 600%;
+}
+
+h3:hover {
+  color: purple;
+  text-shadow: 2px 2px 5px pink;
 }

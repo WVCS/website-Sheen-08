@@ -20,3 +20,33 @@ h3:hover {
   color: purple;
   text-shadow: 2px 2px 5px pink;
 }
+
+
+nav {
+  list-style-type: none;
+  background-color: #7261A3;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 18px;
+}
+
+li{
+  display:inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #C9C9C9;
+  padding: 20px 75px;
+}
+
+li a:hover {
+  background-color: #FEE9E1;
+  color: black;
+}
+
+body {
+  background-color: #FEE9E1;
+}
